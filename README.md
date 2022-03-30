@@ -89,16 +89,3 @@ toHsv('blue') // { h: 24, s: 1, v: 1 }
 fromHsv({ h: 200, s: 0.4, v:0.4 }) // #3d5866
 
 ```
-
-## Examples
-
-See our examples on [Expo](https://snack.expo.io/@sodik82/react-native-color-picker-example)
-
-
-## Limitations
-* Does not work well within `ScrollView` due to touch event interference.
-* RN has deprecated `Slider` component. You need to provide Slider component as prop to overcome this. 
-* There is known [bug](https://github.com/instea/react-native-color-picker/issues/17) affecting RN 0.61. See more info about the workaround. 
-
-## Thanks
-Our implementation was inspired by [Android Holo ColorPicker](https://github.com/LarsWerkman/HoloColorPicker)
